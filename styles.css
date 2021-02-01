@@ -1,5 +1,5 @@
 :root {
-  --primary: hsl(172, 92%, 39%);
+  --primary: #4dc9c2;
   --white: rgb(255, 255, 255);
   --black: #222;
   --grey1: #3a3b3c;
@@ -87,7 +87,6 @@ li {
   display: flex;
   align-items: center;
 }
-
 
 nav {
   position: fixed;
