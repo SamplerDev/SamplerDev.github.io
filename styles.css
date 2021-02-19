@@ -87,6 +87,72 @@ li {
   align-items: center;
 }
 
+
+
+
+/* search-box     */
+.buscar{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 0%;
+top: -30%;
+background:white;
+padding: 1%;
+height: 10%;
+border-radius: 40px;
+
+
+}
+
+.buscar-texto {
+  border: none;
+  background: none;
+  outline: none;
+  color:var(--primary);
+  font-size: 18px;
+  float: left;
+  line-height:25px ;
+  transition: ;
+   width: 135%;
+  }
+
+
+
+  .btn{
+    width: 15%;
+    height: 15%;
+    text-decoration:white;
+    color:var(--primary);
+    font-size: 30%;
+  }
+
+  /*responsive*/
+
+
+  @media screen and (min-width:480px){
+     .buscar:hover > .buscar-texto{
+       width: 190px;
+     }
+
+  }
+  @media screen and (min-width:768px){
+    .buscar:hover > .buscar-texto{
+      width: px;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
 nav {
   position: fixed;
   top: 0;
