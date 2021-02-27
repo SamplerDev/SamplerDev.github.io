@@ -43,12 +43,6 @@
 
 
     
-       <div class="buscar">
-        <input type="text" name="" class="buscar-texto" placeholder="Que estás buscando?"/>
-        <a class="boton">
-         <i class="s"></i>
-        </a>
-       </div>
 
     
 
@@ -167,64 +161,7 @@
 
        <script>
             
-          const formulario = document.querySelector('#formulario');
-         const boton= document.querySelector('#boton');
-         const contenedor1 = document.getElementsByClassName('contenedor1');
-         const resultado = document.querySelector('#resultado');
-        
-         const tiendas= [
-          {nombre:'Turismo',
-
-          nombre2:'Sol y Luna',link: `<a href="SolyLuna.html">Turismo Sol y Luna</a>` },
-
-          {nombre:'Turismo',
-
-          nombre2:'ejemplo',link: `<a href="SolyLuna.html">Ejemplo</a>` }
-
-
-         ]
-         const filtrar = () =>{
-
-          resultado.innerHTML ='';
-           const texto = formulario.value.toLowerCase();
           
-
-           
-           for(let tienda of tiendas){
-             let nombre = tienda.nombre.toLowerCase();
-             let nombre2 = tienda.nombre2.toLocaleLowerCase();
-             if ( nombre == texto || nombre2 == texto){
-                   resultado.innerHTML +=`
-
-
-                   <li id="resultados" > ${tienda.link} </li>
-                   
-                   `
-
-             }
-
-             
-
-             
-           }
-
-          
-
-           
-           
-             
-          
-          
-          
-          }
-           
-           boton.addEventListener('click',filtrar); 
-
-
-             
-            
-
- 
        </script>
       
       <span>Todas las tiendas, en una sola tienda.</span>
@@ -888,15 +825,19 @@
       <div class="product">
         <div class="img-container">
           <img src="./images/disponible.png" alt="" />
+          
+         <!-- 
           <div class="addCart">
             <i class="fas fa-shopping-cart"></i>
           </div>
 
+          
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+        -->
         </div>
         <div class="bottom">
           <a href="">Disponible</a>
@@ -913,11 +854,14 @@
             <i class="fas fa-shopping-cart"></i>
           </div>
 
+          <!--
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+        -->
+
         </div>
         <div class="bottom">
           <a href="">Disponible</a>
@@ -935,11 +879,16 @@
             <i class="fas fa-shopping-cart"></i>
           </div>
 
+
+          <!--
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+        -->
+
+
         </div>
         <div class="bottom">
           <a href="">Disponible</a>
@@ -956,12 +905,17 @@
             <i class="fas fa-shopping-cart"></i>
           </div>
 
+          <!--
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+
+        --> 
+
         </div>
+
         <div class="bottom">
           <a href="">Disponible</a>
           <div class="price">
@@ -978,11 +932,16 @@
             <i class="fas fa-shopping-cart"></i>
           </div>
 
+
+          <!--
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+
+        -->
+
         </div>
         <div class="bottom">
           <a href="">Disponible</a>
@@ -998,12 +957,15 @@
           <div class="addCart">
             <i class="fas fa-shopping-cart"></i>
           </div>
-
+          
+          <!--
           <ul class="side-icons">
             <span><i class="fas fa-search"></i></span>
             <span><i class="far fa-heart"></i></span>
             <span><i class="fas fa-sliders-h"></i></span>
           </ul>
+        -->
+
         </div>
         <div class="bottom">
           <a href="">Disponible</a>
@@ -1095,25 +1057,25 @@
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide">
-              <img src="./images/brand1.png" alt="">
+              <img src="./images/Sol y Luna/Sol y Luna logo.bmp" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand2.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand3.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand4.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand5.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand6.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             <li class="glide__slide">
-              <img src="./images/brand7.png" alt="">
+              <img src="./images/disponible.png" alt="">
             </li>
             
             

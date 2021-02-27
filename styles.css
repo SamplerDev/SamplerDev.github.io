@@ -96,11 +96,12 @@ li {
 
 
 .buscar{
+
 justify-content: center;
 align-items: center;
 position: absolute;
 left: 0%;
-top: -45%;
+top: -25%;
 background:white;
 padding: 1%;
 height: 15%;
@@ -111,7 +112,7 @@ border-radius: 40px;
 
 
 .buscar-texto {
-  display: flex;
+  
   border: none;
   background: none;
   outline: none;
@@ -123,10 +124,22 @@ border-radius: 40px;
    width: 135%;
   }
 
+#boton{
+  position: ;
+}
+
+
+
 #resultado {
 
-  background-color:var(--black);
+  background-color:rgb(49, 48, 48);
+  border-radius:20px ;
+  
 
+
+}
+
+#resultados{
 
 }
 
