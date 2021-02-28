@@ -101,14 +101,15 @@ justify-content: center;
 align-items: center;
 position: absolute;
 left: 0%;
-top: -25%;
+top: -20%;
 background:white;
 padding: 1%;
-height: 15%;
+height: 25%;
 border-radius: 40px;
 
 
 }
+
 
 
 .buscar-texto {
@@ -125,7 +126,7 @@ border-radius: 40px;
   }
 
 #boton{
-  position: ;
+
 }
 
 
