@@ -63,9 +63,7 @@ const formulario = document.querySelector('#formulario');
 
           nombre2:'Sol y Luna',link: `<a href="SolyLuna.html">Turismo Sol y Luna</a>` },
 
-          {nombre:'Turismo',
-
-          nombre2:'ejemplo',link: `<a href="SolyLuna.html">Ejemplo</a>` }
+          
 
 
          ]
