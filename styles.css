@@ -737,7 +737,7 @@ height:238px;
 #tarjeta {
   border-style:solid;
   border-width: 10px;
-  border-radius: 20px;
+  border-radius: ;
   border-image: linear-gradient(135deg,#14efff, #39ff14)1 ;
 }
 .product {
@@ -1384,6 +1384,7 @@ th:last-child {
 
 .col-1-of-4 div {
   margin-bottom: 8rem;
+  border-radius: 20px;
 }
 
 .block-content li {
