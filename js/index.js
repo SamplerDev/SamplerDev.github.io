@@ -52,8 +52,8 @@ links.map(link => {
 });
 
 /**Buscador */
-
-const formulario = document.querySelector('#formulario');
+/** 
+ const formulario = document.querySelector('#formulario');
          const boton= document.querySelector('#boton');
          const contenedor1 = document.getElementsByClassName('contenedor1');
          const resultado = document.querySelector('#resultado');
@@ -104,9 +104,36 @@ const formulario = document.querySelector('#formulario');
           }
            
            boton.addEventListener('click',filtrar); 
-
+//
 
              
             
 
- 
+ */
+
+
+
+const inn=document.getElementById("formulario");
+const sel=document.getElementsByClassName("promotion-item");
+
+ function searchFilter(input,selector){
+     document.addEventListener('keyup',e=>{
+       if (e.target.matches('#formulario')){
+          
+        // console.log(e.target.value);
+        document.querySelectorAll('.promotion-item').forEach((el)=>
+          el.textContent.toLowerCase().includes
+          (e.target.value)?el.classList.remove('filter'):
+          el.classList.add('filter')
+        );
+       }
+
+
+     });
+
+
+
+
+}
+
+searchFilter(inn,sel);
