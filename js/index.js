@@ -52,8 +52,7 @@ links.map(link => {
 });
 
 /**Buscador */
-/** 
- const formulario = document.querySelector('#formulario');
+/**const formulario = document.querySelector('#formulario');
          const boton= document.querySelector('#boton');
          const contenedor1 = document.getElementsByClassName('contenedor1');
          const resultado = document.querySelector('#resultado');
@@ -104,14 +103,10 @@ links.map(link => {
           }
            
            boton.addEventListener('click',filtrar); 
-//
 
+*/
              
             
-
- */
-
-
 
 const inn=document.getElementById("formulario");
 const sel=document.getElementsByClassName("promotion-item");

@@ -622,14 +622,13 @@ nav .wrapper {
 
 .promotion-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-template-columns:    repeat(auto-fit, minmax(250px,1fr));
   gap: 3rem;
 
 
 }
 
 .promotion-item {
-
   overflow: hidden;
   position: relative;
   z-index: 0;
@@ -1446,6 +1445,6 @@ th:last-child {
 
 
 .filter{
-display: none;
-
-}
+  display: none;
+  
+  }
