@@ -1445,6 +1445,9 @@ th:last-child {
 
 
 .filter{
-  visibility: hidden;
+  display: none;
+  
+ 
+  
   
   }
